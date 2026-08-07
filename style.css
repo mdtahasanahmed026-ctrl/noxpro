@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#111827;
+    color:white;
+    text-align:center;
+}
+
+nav{
+    background:#1f2937;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:gold;
+}
+
+h1{
+    color:gold;
+    margin-top:30px;
+}
+
+p{
+    margin-top:10px;
+}
+
+.login-box,
+.points-box{
+    width:350px;
+    background:#1f2937;
+    margin:30px auto;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(255,215,0,.2);
+}
+
+.login-box h2,
+.points-box h2{
+    color:gold;
+    margin-bottom:20px;
+}
+
+.login-box input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:none;
+    border-radius:8px;
+}
+
+.login-box button,
+.ad-btn{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    background:gold;
+    color:black;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.login-box button:hover,
+.ad-btn:hover{
+    background:orange;
+}
+
+#points{
+    color:lime;
+    font-size:45px;
+    margin:20px 0;
+}
+.register-box{
+    width:350px;
+    background:#1f2937;
+    margin:30px auto;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(255,215,0,.2);
+}
+
+.register-box h2{
+    color:gold;
+    margin-bottom:20px;
+}
+
+.register-box input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:none;
+    border-radius:8px;
+}
+
+.register-box button{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    background:#00c853;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.register-box button:hover{
+    background:#00a844;
+}
+.profile-box{
+    width:350px;
+    background:#1f2937;
+    margin:30px auto;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(255,215,0,.2);
+}
+
+.profile-box h2{
+    color:gold;
+    margin-bottom:15px;
+}
+
+.profile-box p{
+    margin:10px 0;
+    font-size:16px;
+}
+
+.profile-box button{
+    width:100%;
+    padding:12px;
+    margin-top:15px;
+    background:#2196F3;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
